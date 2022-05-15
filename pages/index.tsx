@@ -13,7 +13,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="flex bg-white justify-center h-[600px] w-[1000px] overflow-hidden rounded-xl">
+      <div className="flex bg-white justify-center h-[600px] w-[1000px] overflow-hidden rounded-xl drop-shadow-xl">
         <LoginForm />
         <div className="relative w-full ">
           <Image src="/images/bg.jpg" layout='fill' className="object-cover" alt='background' />
